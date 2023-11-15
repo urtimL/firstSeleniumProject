@@ -79,7 +79,7 @@ public class findeElementTest {
 
         //placeholder="Password"
         //contains --> *
-        WebElement element4 = driver.findElement(By.cssSelector("[placeholder='ssw']"));
+        WebElement element4 = driver.findElement(By.cssSelector("[placeholder*='ssw']"));
         System.out.println(element4.getText());
 
         //start --> ^
